@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    background-image: url("./img/music2.jpg");
+    backdrop-filter: blur(50px);
+}
+
+form label {
+    color:white; 
+  }
+  
+
+  
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Canciones</title>
+</head>
+<body>
+  <div class="container"> 
+    <form action="">
+      <h1>Agregar Cancion</h1>
+
+      <div class="form-group"> 
+        <label for="id">ID:</label>
+        <input type="number" id="id" name="id" class="form-control"> 
+      </div>
+
+      <div class="form-group">
+        <label for="titulo">Titulo</label>
+        <input type="text" id="titulo" name="titulo" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="minutos">Minutos</label>
+        <input type="number" id="minutos" name="minutos" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="minutos">Segundos</label>
+        <input type="number" id="Segundos" name="Segundos" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="interprete">Interprete</label>
+        <input type="text" id="interprete" name="interprete" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="albumes">Albumes</label>
+        <input type="text" id="albumes" name="albumes" class="form-control">
+      </div>
+
+      <h1>Medio</h1>
+
+      <div class="form-group">
+        <label for="medio">Tipo de Medio</label>
+        <select name="medio" id="medio" class="custom-select">
+          <option value="disco">Disco</option>
+          <option value="casete">Casete</option>
+          <option value="cd">CD</option>
+        </select>
+      </div>
+
+      <input type="submit" value="Enviar" class="btn btn-primary">
+    </form>
+  </div>
+
+  <script src = "https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
